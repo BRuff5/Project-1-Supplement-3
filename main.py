@@ -28,3 +28,13 @@ Args:
 Returns:
     The result of the number is even or odd.
 """
+
+if __name__ == "__main__":
+    scale = input("Would you like to enter the temperature in Celsius or Fahrenheit? (C/F): ").strip().upper()
+"""Ask the user what temperature they want
+Args:
+    Celsius or Fahrenheit
+Returns:
+    C/F
+"""
+
