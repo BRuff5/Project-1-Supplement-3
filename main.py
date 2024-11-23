@@ -38,3 +38,7 @@ Returns:
     C/F
 """
 
+if scale == 'C':
+    celsius_input = float(input("Enter the temperature in Celsius: "))
+    fahrenheit_result = celsius_to_fahrenheit(celsius_input)
+    print(f"{celsius_input:.2f}°C is {fahrenheit_result:.2f}°F")
