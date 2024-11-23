@@ -42,3 +42,19 @@ if scale == 'C':
     celsius_input = float(input("Enter the temperature in Celsius: "))
     fahrenheit_result = celsius_to_fahrenheit(celsius_input)
     print(f"{celsius_input:.2f}°C is {fahrenheit_result:.2f}°F")
+"""Ask the user for Celsius temperature
+Args:
+    User inputs number for celsius
+Returns:
+    The temperature in celsius and converts it fahrenheit
+"""
+if is_even(int(celsius_input)):
+        print(f"The temperature {celsius_input}°C is even.")
+else:
+        print(f"The temperature {celsius_input}°C is odd.")
+"""Determines if the temperature is even or odd
+Args:
+    Pulls the celsius input
+Returns:
+    If the input is even or odd
+"""
