@@ -72,3 +72,17 @@ elif scale == 'F':
             Returns:
                 The temperature in fahrenheit and converts it celsius
         """
+        
+        if is_even(int(fahrenheit_input)):
+            print(f"The temperature {fahrenheit_input}°F is even.")
+        else:
+            print(f"The temperature {fahrenheit_input}°F is odd.")
+else:
+    print("Invalid scale entered. Please use 'C' for Celsius or 'F' for Fahrenheit.")
+    
+    """Determines if the temperature is even or odd
+            Args:
+                Pulls the fahrenheit input
+            Returns:
+                If the input is even or odd
+        """
